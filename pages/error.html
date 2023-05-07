@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../img/icon.png">
+    <title>ALURAdisk | Error</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/mensaje_error.css" />
+    <link rel="stylesheet" href="../css/resultado.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+</head>
+
+<body class="body">
+    <header class="cabecera">
+        <div class="cabecera__contenedorA">
+            <a href="../index.html">
+                <img class="comercio__logo" src="../img/Logo.png" alt="Logo de la tienda" />
+            </a>
+            <div class="cabecera__contenedorB">
+                <div class="cabecera__buscar">
+                    <input class="cabecera__input" type="search" placeholder="Buscar" id="cabecera__input" />
+                    <img class="icon__search" src="../img/search.png" alt="">
+                    <div class="cabecera__resultado" id="resultado"></div>
+                    <div class="limpiar" id="limpiar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="login">
+            <form class="login__contenedor" action="">
+                <span class="mensaje__titulo titulo">Ocurrio un error</span>
+                <a href="../index.html">
+                    <span class="cabecera__login" id="boton__login">Aceptar</span>
+                </a>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenedorA">
+            <div class="footer__contenedorB">
+                <div class="footer__logo">
+                    <a class="logo__contenedor" href="../index.html">
+                        <img class="footer__img" src="../img/Logo.png" alt="Logo aluradisk" />
+                    </a>
+                </div>
+                <div class="contacto">
+                    <ul class="contacto__lista">
+                        <li class="contacto__item"><a href="#" class="contacto__link">Quienes somos</a></li>
+                        <li class="contacto__item"><a href="#" class="contacto__link">Politicas de privacidad</a></li>
+                        <li class="contacto__item"><a href="#" class="contacto__link">Programa de fidelidad</a></li>
+                        <li class="contacto__item"><a href="#" class="contacto__link">Nuestras tiendas</a></li>
+                        <li class="contacto__item"><a href="#" class="contacto__link">Quiero ser franquiciado</a></li>
+                        <li class="contacto__item"><a href="#" class="contacto__link">Anuncie aquí</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="formulario">
+                <form class="formulario__contenedor" id="formulario" action="">
+                    <span class="formulario__titulo">Hable con nosotros</span>
+
+                    <input class="formulario__nombre" id="formulario__nombre" type="text" placeholder="Nombre"
+                        minlength="3" maxlength="30" title="Este campo no puede estar vacío" required />
+
+                    <textarea class="formulario__textarea" id="formulario__textarea" placeholder="Mensaje"
+                        name="formulario__textarea" cols="30" rows="10" minlength="5" maxlength="120"
+                        title="Este campo no puede estar vacío" required></textarea>
+
+                    <button class="formulario__boton" id="formulario__boton" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer__dev">
+            <span class="footer__dev-texto">
+                <a href="">&#169; Desarrollado por Pablo Pérez | 2023 <br /></a>
+            </span>
+        </div>
+    </footer>
+    <script type="module" src="../js/message.js"></script>
+    <script type="module" src="../js/search.js"></script>
+</body>
+
+</html>

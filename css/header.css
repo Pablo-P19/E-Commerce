@@ -1,0 +1,89 @@
+.cabecera {
+    background-color: #c2c2c2;
+    border-bottom: 2px solid #000000;
+}
+
+.cabecera__contenedorA {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+.cabecera__contenedorB {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comercio__logo {
+    padding: 5px 0;
+}
+
+.cabecera__buscar {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecera__input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: white;
+    padding: 10px 0 10px 20px;
+}
+
+.icon__search {
+    margin: 8px;
+}
+
+.cabecera__login-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-botones);
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    width: 120px;
+    height: 35px;
+}
+
+@media screen and (max-width: 1007px) {
+    .cabecera__contenedorA {
+        width: 80%;
+    }
+
+    .comercio__logo {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .cabecera__contenedorA {
+        margin-right: 0;
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .comercio__logo {
+        width: 65%;
+    }
+
+    .cabecera__buscar {
+        width: 90%;
+    }
+
+    .cabecera__input {
+        width: 80%;
+        padding: 8px 0;
+    }
+
+    .cabecera__login-contenedor {
+        width: 70px;
+        font-size: .7rem;
+    }
+}

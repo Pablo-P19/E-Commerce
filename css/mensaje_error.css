@@ -1,0 +1,32 @@
+ .mensaje__titulo {
+     text-align: center;
+     color: var(--color-letras);
+     padding: 5%;
+     font-size: 3rem;
+     font-weight: 600;
+
+ }
+
+ .login__contenedor {
+     background: #262c33;
+ }
+
+ .cabecera__login {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: rgb(23, 156, 41);
+     font-size: 1rem;
+     font-weight: 600;
+     color: white;
+     width: 120px;
+     height: 35px;
+     border-radius: 10px;
+ }
+
+
+ @media screen and (max-width: 640px) {
+     .titulo {
+         font-size: larger;
+     }
+ }

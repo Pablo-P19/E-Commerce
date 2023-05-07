@@ -1,0 +1,148 @@
+{
+  "producto": [
+    {
+      "categoria": "clasico",
+      "imagen": "../img/c_disc01.png",
+      "nombre": "Pink Floyd",
+      "precio": "11.99",
+      "descripcion": "\"The Dark Side of the Moon\" - Álbum icónico de Pink Floyd, explorando temas como la vida, la muerte, la locura y la alienación en un viaje sónico impresionante.",
+      "id": "cc3ad30d-ab81-44c9-a3ec-373edcd79548"
+    },
+    {
+      "categoria": "clasico",
+      "imagen": "../img/c_disc02.png",
+      "nombre": "AC/DC",
+      "precio": "9.00",
+      "descripcion": "\"Back in Black\" es el séptimo álbum de estudio de la banda de hard rock AC/DC. Fue lanzado en 1980 y es uno de los discos más vendidos de la historia de la música. ",
+      "id": "63162ded-053f-46bf-b3de-4f8b277c6a3b"
+    },
+    {
+      "categoria": "clasico",
+      "imagen": "../img/c_disc03.png",
+      "nombre": "Led Zeppelin",
+      "precio": "12.79",
+      "descripcion": "\"Led Zeppelin IV\" es el cuarto álbum de estudio de la banda británica Led Zeppelin, lanzado en 1971. Contiene uno de sus mayores éxitos, como \"Stairway to Heaven.",
+      "id": "42eb2e07-3553-4643-929f-0c51b63db8c5"
+    },
+    {
+      "categoria": "clasico",
+      "imagen": "../img/c_disc04.png",
+      "nombre": "Black Sabbath",
+      "precio": "12.99",
+      "descripcion": "\"Paranoid\" es el segundo álbum de estudio de la banda de heavy metal británica Black Sabbath, lanzado en 1970. El álbum es considerado un clásico del género.",
+      "id": "1e26843e-e538-4e29-b1b2-77feed4ceec2"
+    },
+    {
+      "categoria": "clasico",
+      "imagen": "../img/c_disc05.png",
+      "nombre": "The Doors",
+      "precio": "10.70",
+      "descripcion": "\"The Doors\" es el álbum debut de la banda de rock estadounidense del mismo nombre, lanzado en 1967. El disco presenta una mezcla de rock psicodélico y blues rock.",
+      "id": "7017779d-e16c-4a4f-86f8-6144bdd04725"
+    },
+    {
+      "categoria": "clasico",
+      "imagen": "../img/c_disc06.png",
+      "nombre": "Queen",
+      "precio": "10.09",
+      "descripcion": "\"Queen II\" segundo álbum de la banda británica Queen, lanzado en 1974. El disco es una mezcla de rock progresivo y hard rock con influencias clásicas y operísticas.",
+      "id": "f279106c-7dbe-4801-9b4f-9b8a420c7556"
+    },
+    {
+      "categoria": "latino",
+      "imagen": "../img/rl_disc01.png",
+      "nombre": "Soda Stereo",
+      "precio": "13.80",
+      "descripcion": "\"Soda Stereo\" es el primer álbum homónimo de la banda de rock argentino lanzado en 1984. Considerado uno de los más influyentes en la historia del rock en español.",
+      "id": "e6eaa6d1-8b04-46e7-9e9e-9a18a856307a"
+    },
+    {
+      "categoria": "latino",
+      "imagen": "../img/rl_disc02.png",
+      "nombre": "Gustavo Cerati",
+      "precio": "10.90",
+      "descripcion": "\"Fuerza Natural\" último álbum de estudio del músico y compositor Gustavo Cerati, lanzado en 2009. Este disco tiene un sonido mucho más electrónico y experimental.",
+      "id": "1ff66436-124f-4a0b-82d8-656ab9b947e6"
+    },
+    {
+      "categoria": "latino",
+      "imagen": "../img/rl_disc03.png",
+      "nombre": "Los Tres",
+      "precio": "10.50",
+      "descripcion": "\"Unplugged\" es un álbum en vivo de la banda chilena Los Tres, que presenta versiones acústicas de algunas de sus canciones más populares. Grabado en el año 1995.",
+      "id": "cf0de493-54b0-4f31-ae71-d37874c122b6"
+    },
+    {
+      "categoria": "latino",
+      "imagen": "../img/rl_disc04.png",
+      "nombre": "Los Bunkers",
+      "precio": "10.49",
+      "descripcion": "\"Barrio Estación\" primer álbum de estudio de la banda chilena Los Bunkers, lanzado en el año 2000. El disco incluye 13 canciones que exploran distintos géneros.",
+      "id": "cbaa73f6-1207-4dcf-9170-9c9a72d09d30"
+    },
+    {
+      "categoria": "latino",
+      "imagen": "../img/rl_disc05.png",
+      "nombre": "Virus",
+      "precio": "11.90",
+      "descripcion": "\"Locura\" es el quinto álbum de estudio del grupo musical de Argentina Virus, lanzado el 25 de octubre de 1985. Es el disco más sexual y sofisticado de Virus.",
+      "id": "b70f5f3f-6f82-4bed-81a7-1587af759be5"
+    },
+    {
+      "categoria": "latino",
+      "imagen": "../img/rl_disc06.png",
+      "nombre": "Molotov",
+      "precio": "11.00",
+      "descripcion": "\"Desde Rusia con amor\" es el primer álbum en vivo de la banda mexicana Molotov y salió a la venta el 15 de mayo de 2012.",
+      "id": "286e5117-0fa0-4648-b0a8-6d5364922637"
+    },
+    {
+      "categoria": "variado",
+      "imagen": "../img/v_disc01.png",
+      "nombre": "R.A.T.M",
+      "precio": "8.50",
+      "descripcion": "\"Evil Empire\" es el segundo álbum de la banda estadounidense de rap metal Rage Against the Machine. Fue lanzado al mercado el 16 de abril de 1995.",
+      "id": "0c979557-3670-4fe9-9c50-ec2c69fea23d"
+    },
+    {
+      "categoria": "variado",
+      "imagen": "../img/v_disc02.png",
+      "nombre": "S.O.A.D",
+      "precio": "9.00",
+      "descripcion": "\"Hypnotize\" es el quinto álbum de System of a Down y la segunda parte que completa el disco doble Mezmerize/Hypnotize. Fue lanzado el 22 de noviembre de 2005.",
+      "id": "dac04190-376c-4294-8dbe-3d66253932dd"
+    },
+    {
+      "categoria": "variado",
+      "imagen": "../img/v_disc03.png",
+      "nombre": "Radiohead",
+      "precio": "8.00",
+      "descripcion": "\"My Iron Lung\" EP lanzado en 1994 por la banda inglesa Radiohead. Contenía la canción del mismo nombre, varios Lados B de Pablo Honey y la versión acústica de Creep.",
+      "id": "7474ab77-c206-4a95-b48e-cd7d830d4e9c"
+    },
+    {
+      "categoria": "variado",
+      "imagen": "../img/v_disc04.png",
+      "nombre": "Jinjer",
+      "precio": "8.20",
+      "descripcion": "\"Macro\" cuarto álbum de estudio de la banda ucraniana de metal progresivo, Lanzado en 2020. El disco combinan la potencia del metal con elementos de jazz y reggae.",
+      "id": "12ab0383-d81b-431a-9022-5a4e0d7396d6"
+    },
+    {
+      "categoria": "variado",
+      "imagen": "../img/v_disc05.png",
+      "nombre": "Guns N` Roses",
+      "precio": "9.00",
+      "descripcion": "\"Appetite for Destruction\" es el álbum debut de la banda estadounidense de hard rock Guns N' Roses, lanzado en 1987. El álbum presenta un sonido crudo y agresivo.",
+      "id": "ae8880f9-b63d-4907-a73a-6ea4acd52825"
+    },
+    {
+      "categoria": "variado",
+      "imagen": "../img/v_disc06.png",
+      "nombre": "The Cranberries",
+      "precio": "7.90",
+      "descripcion": "\"Stars\" es un álbum compilatorio de grandes éxitos de la banda irlandesa de rock The Cranberries lanzado en el año 2002 y que reúne sus canciones más reconocidas.",
+      "id": "97d12ca7-4159-4e2d-93ad-c26ac66d6704"
+    }
+  ]
+}

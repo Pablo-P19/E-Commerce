@@ -32,7 +32,7 @@ const eliminarProducto = (id) => {
 };
 
 const datosProducto = async (id) => {
-    const respuesta = await fetch(`https://my-json-server.typicode.com/Pablo-P19/E-Commerce/producto/producto/${id}`);
+    const respuesta = await fetch(`https://my-json-server.typicode.com/Pablo-P19/E-Commerce/producto/${id}`);
     return await respuesta.json();
 };
 
